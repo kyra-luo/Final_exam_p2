@@ -32,7 +32,7 @@ app.use(session({
     secret: 'a706835de79a2b4e90506f582af3676ac8361521',
     resave: false,
     saveUninitialized: true,
-    cookie: { secure: false }
+    cookie: { secure: true }
 }));
 
 app.use(function(req, res, next) {
